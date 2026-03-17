@@ -7,7 +7,7 @@ An end-to-end machine learning system that predicts daily product demand for ret
 ---
 
 ## 🔥 Live Demo
-👉 [Add your Streamlit link here after deployment]
+👉 https://demand-forecasting-platform.streamlit.app
 
 ---
 
