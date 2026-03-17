@@ -7,11 +7,10 @@ import streamlit as st
 
 ROOT = Path(__file__).resolve().parents[1]
 
-FORECAST_PATH = ROOT / "data" / "predictions" / "forecast.parquet"
-MONITOR_PATH = ROOT / "reports" / "metrics" / "monitoring.json"
-TRAIN_METRICS_PATH = ROOT / "reports" / "metrics" / "train_metrics.json"
-BACKTEST_PATH = ROOT / "reports" / "metrics" / "backtest_summary.parquet"
-
+FORECAST_PATH = ROOT / "demo_data" / "forecast_demo.parquet"
+MONITOR_PATH = ROOT / "demo_data" / "monitoring_demo.json"
+TRAIN_METRICS_PATH = ROOT / "demo_data" / "train_metrics_demo.json"
+BACKTEST_PATH = ROOT / "demo_data" / "backtest_summary_demo.parquet"
 st.set_page_config(
     page_title="Retail Demand Forecast Dashboard",
     layout="wide"

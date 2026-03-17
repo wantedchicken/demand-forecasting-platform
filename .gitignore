@@ -1,4 +1,45 @@
-# Virtual environment
+# ===============================
+# Virtual Environment
+# ===============================
+.venv/
+
+# ===============================
+# Python Cache
+# ===============================
+__pycache__/
+*.pyc
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Mac System Files
+# ===============================
+.DS_Store
+
+# ===============================
+# Data (Large Files)
+# ===============================
+data/
+models/
+
+# ===============================
+# Large / Generated Artifacts
+# ===============================
+reports/metrics/backtest_predictions.parquet
+
+# ===============================
+# Logs / Temp Files
+# ===============================
+*.log
+
+# ===============================
+# Optional: IDE / Editor
+# ===============================
+.vscode/
+.idea/# Virtual environment
 .venv/
 
 # Python cache
